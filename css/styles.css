@@ -10306,6 +10306,9 @@ body {
   padding: 3rem;
   font-size: 90%;
 }
+.publication-list li {
+  margin-bottom: 0.75rem;
+}
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
