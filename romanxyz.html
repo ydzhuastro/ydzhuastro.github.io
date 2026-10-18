@@ -231,8 +231,8 @@
                         <p class="text-black-50">
                             RomanXYZ is written in Python and installs with <a href="https://pixi.sh">pixi</a>. The quick-start example simulates one detector at two roll angles and runs the whole chain in about a minute. An open-source release is coming soon.
                         </p>
-<pre class="code-block mb-4">pixi install &amp;&amp; pixi run hydrate &amp;&amp; pixi run test
-pixi run hydrate-sim --sca 9
+<pre class="code-block mb-4">pixi install &amp;&amp; pixi run fetch-refdata &amp;&amp; pixi run test
+pixi run fetch-simdata --sca 9
 pixi run python examples/quickstart/run_quickstart.py
 
 # a larger test: six dithered exposures with injected lines
